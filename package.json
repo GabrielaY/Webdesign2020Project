@@ -1,0 +1,29 @@
+{
+  "name": "web-project",
+  "version": "1.0.0",
+  "description": "Webdesign project",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriela Yoncheva 11a",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaY/Webdesign2020Project.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "bugs": {
+    "url": "https://github.com/GabrielaY/Webdesign2020Project/issues"
+  },
+  "homepage": "https://github.com/GabrielaY/Webdesign2020Project#readme"
+}
