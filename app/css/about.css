@@ -34,20 +34,38 @@ footer {
 .about-card {
   width: 75%;
   min-height: 20em;
-  box-shadow: -50px -50px 0 -40px #231f20, -20em 0 0 -43px #314056, 50px 50px 0 -40px #231f20, -55px -55px 0 -43px #c1d6ac, 60px 60px 0 -48px #c1d6ac, 20em 0 0 -48px #314056;
+  box-shadow: -50px -50px 0 -40px #231f20, 50px 50px 0 -40px #231f20, -55px -55px 0 -43px #c1d6ac, 60px 60px 0 -48px #c1d6ac, -20em 0 0 -43px #314056, 20em 0 0 -48px #314056;
   background-color: #f7f7f7;
   color: black;
   padding: 2em;
-  margin: 1em;
+  margin: 1.4em;
   flex-wrap: wrap;
   display: flex;
-  text-align: center;
+  text-align: right;
   justify-content: space-evenly;
   align-items: center; }
   .about-card img {
-    width: 170px;
-    height: 170px;
-    border: solid #231f20 2px; }
+    width: 235px;
+    height: 235px;
+    border-radius: 10px; }
 
 .text-and-buttons {
   max-width: 40em; }
+  .text-and-buttons h1 {
+    font-size: 17pt;
+    text-align: center; }
+  .text-and-buttons p {
+    text-align: left;
+    font-size: 13pt;
+    padding: 0.3em; }
+  .text-and-buttons button {
+    transition-duration: 0.4s;
+    color: white;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    background-color: #314056;
+    margin: 0 2px; }
+  .text-and-buttons button:hover {
+    background-color: #c1d6ac;
+    color: black; }
