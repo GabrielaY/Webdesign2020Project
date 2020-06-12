@@ -26,8 +26,15 @@
   100% {
     background-color: blue; } }
 
+html {
+  min-height: 100%;
+  position: relative; }
+
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-size: 500px 442px;
   background-color: #636363;
   background-blend-mode: overlay;
@@ -67,6 +74,7 @@ body {
 
 .navigation {
   position: fixed;
+  top: 0;
   width: 100%;
   background-color: #231f20;
   display: flex;
@@ -226,27 +234,27 @@ body {
   font-weight: bold;
   font-size: 18px; }
 
-footer {
+.footer-home-page {
   margin-top: 3em;
   color: white;
   display: flex;
   justify-content: center;
   background-color: #231f20;
   border-top: #c1d6ac solid 2px; }
-  footer .footer-content {
+  .footer-home-page .footer-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center; }
-  footer .icons {
+  .footer-home-page .icons {
     padding-top: 1em; }
-    footer .icons i {
+    .footer-home-page .icons i {
       padding: 0.2em; }
-  footer .links {
+  .footer-home-page .links {
     padding-top: 2em;
     display: flex;
     justify-content: center; }
-    footer .links a {
+    .footer-home-page .links a {
       color: white;
       padding: 0 0.5em; }
 

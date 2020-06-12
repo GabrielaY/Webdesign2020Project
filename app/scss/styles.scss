@@ -50,9 +50,15 @@ $border-outline-color: #c1d6ac;
     -webkit-transition-delay: $delay;
     transition-delay:         $delay;
 }
-
+html{
+	min-height: 100%;
+	position: relative;
+}
 body{
 	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 	background-size: 500px 442px;
 	background-color: lighten(black, 39);
 	background-blend-mode: overlay;
@@ -119,6 +125,7 @@ body{
 
 .navigation{
 	position: fixed;
+	top: 0;
 	width: 100%;
 	background-color: $nav-bar-color;
 	display: flex;
@@ -322,7 +329,7 @@ body{
 	font-size: 18px;
 }
 
-footer {
+.footer-home-page {
 	margin-top: 3em;
 	color: white;
 	display: flex;
