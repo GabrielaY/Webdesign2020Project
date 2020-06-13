@@ -3,47 +3,6 @@ $article-background-color: rgb(247, 247, 247);
 $nav-bar-color: rgb(35, 31, 32);
 $border-outline-color: #c1d6ac;
 
-
-footer {
-	margin-top: 2em;
-	color: white;
-	flex-shrink: 0;
-
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	background-color: $nav-bar-color;
-	border-top: $border-outline-color solid 2px;
-
-	.footer-content{
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		align-items: center;
-	}
-
-	.icons{
-		padding-top: 1em;
-		
-		i{
-			padding: 0.2em;
-		}
-
-	}
-
-	.links{
-		padding-top: 2em;
-		display: flex;
-		justify-content: center;
-
-		a{
-			color: white;
-			padding: 0 0.5em;
-
-		}
-	}
-}
-
 .about-card-field{
 	flex:1 0 auto;
 	display: flex;
@@ -61,8 +20,8 @@ footer {
 	50px 50px 0 -40px $nav-bar-color,
 	-55px -55px 0 -43px $border-outline-color,
 	60px 60px 0 -48px $border-outline-color,
-	-20em 0 0 -43px #314056,	
-	20em 0 0 -48px #314056;
+	-50em 0 0 -43px #314056,	
+	50em 0 0 -48px #314056;
 	background-color: $article-background-color;
 	color: black;	
 	padding: 2em;

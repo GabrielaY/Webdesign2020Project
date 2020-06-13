@@ -181,14 +181,18 @@ body {
     width: 120px;
     height: 60px;
     padding: 0 1em; }
-  .navigation a {
-    float: left;
-    font-size: 17px;
-    color: white;
-    text-align: center;
-    padding: 1.2em 1em;
-    min-width: 4em;
-    text-decoration: none; }
+
+.text-link {
+  float: left;
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  padding: 1.3em 1em;
+  min-width: 4em;
+  text-decoration: none; }
+
+.image-link:hover {
+  opacity: 0.5; }
 
 .dropdown {
   float: left;
@@ -221,7 +225,7 @@ body {
     color: white;
     background-color: #4e7764; }
 
-.navigation a:hover, .dropdown:hover .dropbtn {
+.navigation .text-link:hover, .dropdown:hover .dropbtn {
   background-color: #7c3123; }
 
 .dropdown-content {
@@ -262,7 +266,7 @@ body {
   z-index: -2;
   display: none;
   position: absolute;
-  left: 10em;
+  left: 9.5em;
   top: 0;
   background-color: #f9f9f9;
   min-width: 9em;
@@ -323,6 +327,7 @@ body {
   display: flex;
   max-width: 60%;
   flex-wrap: wrap;
+  margin-bottom: 3em;
   justify-content: center; }
 
 .cards-field {
@@ -334,27 +339,29 @@ body {
   font-weight: bold;
   font-size: 18px; }
 
-.footer-home-page {
-  margin-top: 3em;
+footer {
+  margin-top: 2em;
   color: white;
+  flex-shrink: 0;
   display: flex;
+  width: 100%;
   justify-content: center;
   background-color: #231f20;
   border-top: #c1d6ac solid 2px; }
-  .footer-home-page .footer-content {
+  footer .footer-content {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center; }
-  .footer-home-page .icons {
+  footer .icons {
     padding-top: 1em; }
-    .footer-home-page .icons i {
+    footer .icons i {
       padding: 0.2em; }
-  .footer-home-page .links {
+  footer .links {
     padding-top: 2em;
     display: flex;
     justify-content: center; }
-    .footer-home-page .links a {
+    footer .links a {
       color: white;
       padding: 0 0.5em; }
 

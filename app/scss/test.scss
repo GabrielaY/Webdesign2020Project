@@ -1,0 +1,85 @@
+$article-text-color: black;
+$article-background-color: rgb(247, 247, 247);
+$nav-bar-color: rgb(35, 31, 32);
+$border-outline-color: #c1d6ac;
+
+@media screen and (max-width: 600px) {
+	.question-container{
+		p{
+			font-size: 12pt !important;
+		}
+	}
+}
+.test-field{
+	display: flex;
+	position: relative;
+	top: 3em;
+	justify-content: center;
+	padding: 4.5em 2em;
+	z-index: 2;
+
+	.test-content{
+		min-width: 90%;
+		box-shadow:
+		-50px -50px 0 -40px $nav-bar-color,
+		-55px -55px 0 -43px $border-outline-color,
+		50px 50px 0 -40px $nav-bar-color,
+		60px 60px 0 -48px$border-outline-color;
+		padding: 1.5em;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		flex-direction: column;
+		justify-content:space-evenly;
+		background-color: $article-background-color;
+		background-image: url(https://www.kuylenpecqueur.be/images/images/footer.png);
+		background-repeat: no-repeat;
+		background-position: bottom;
+	
+		h1{
+			font-size: 21pt;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, .45);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			&::before, &::after {
+			content: '';
+			display: block;
+			height: 0.09em;
+			min-width: 6vw;
+			}
+
+			&::before {
+				background: linear-gradient(to left, black, #fff);
+				margin-right: 4vh;
+			}
+
+			&::after {
+				background: linear-gradient(to right,black, #fff);
+				margin-left: 4vh;
+			} 
+		}	
+	}
+	.question-container{
+		padding: 0 1em;
+		min-width: 50%;
+		margin: 1em 0;
+		.question{
+			font-size: 16pt;
+			margin-bottom: 2em;
+			font-weight: bold;
+		}
+
+	}
+	.submit-button{
+		margin: 4em 0;
+		border: none;
+		padding: 1em;
+		font-weight: bold;
+		font-size: 16pt;
+		width: 8em;
+		color: white;
+		border-radius: 5px;
+		background-color: $nav-bar-color;
+	}
+}
