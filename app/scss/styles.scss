@@ -60,10 +60,12 @@ $border-outline-color: #c1d6ac;
 	}
 	.mobile-navigation{
 		visibility: visible !important;
-		flex-direction: column;
 		
-		a{
-			width: 100%;
+		.mobile-dropdown-content{
+			a{			
+				text-align: center !important;
+
+			}		
 		}
 		.image-link{
 			padding: 0;
@@ -76,7 +78,7 @@ $border-outline-color: #c1d6ac;
 	}
 	.dropbtn{
 		color: black !important;
-		width: 100%;
+		width: 100%; 
 	}
 	.dropdown-content{
 		margin-top: 3.8em;
@@ -84,11 +86,9 @@ $border-outline-color: #c1d6ac;
 		
 
 		a{	
-			width: 95% !important;
+		
 			text-align: center !important;
 			
-
-
 		}
 	}
 	.subdropbtn{
@@ -181,7 +181,9 @@ body{
 	width: 100%;
 	background-color: $nav-bar-color;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	z-index: 100;
 
 
@@ -196,7 +198,7 @@ body{
 		font-size: 17px;
 		color: white;
 		text-align: center;
-		padding: 1.2em 1em;
+		padding: 1.2em 0;
 		min-width: 4em;
 		text-decoration: none;
 	}

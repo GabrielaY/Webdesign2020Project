@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
 		<link rel="stylesheet" type="text/css" href="css/slider.css">
-		<link rel="stylesheet" type="text/css" href="css/test.css">
+		<link rel="stylesheet" type="text/css" href="css/beastiary.css">
 		<meta charset="UTF-8">
 		<title>TheDogBestiary</title>
 	</head>
@@ -66,72 +66,22 @@
 				</section>
 			</section>
 		</nav>
-		<article class="test-field">
-			<selection class="test-content">
-				<h1>Find out which breed is best for you...</h1>
-				<p>Answer the questions down bellow.</p>
-				<section class="question-container">
-					<p class="question">1. What is your home like?</p>
-					<div class="slidecontainer">
-						<input type="range" min="0" max="3" value="2" step='1.5' class="slider" id="myRange" list='tickmarks'>
-						<div class="tickmarks">
-							<p>Apartment</p>
-							<p>House</p>
-							<p>Mansion</p>
-						</div>
-					</div>
+		<article class="gallery-field">
+			<selection class="gallery-content">
+				
+				<section class="dog-card">
+					<img src="https://static.boredpanda.com/blog/wp-content/uploads/2018/09/Dachshund-Inquisitor-5badb27e75daa-png__880.jpg">
+					<p>DACHSHUND</p>
 				</section>
-				<section class="question-container">
-					<p class="question">2. What enegry level would you like your dog to have?</p>
-					<div class="slidecontainer">
-						<input type="range" min="0" max="3" value="2" step='1.5' class="slider" id="myRange" list='tickmarks'>
-						<div class="tickmarks">
-							<p>Low</p>
-							<p>Medium</p>
-							<p>High</p>
-						</div>
-					</div>
+				<section class="dog-card">
+					<img src="https://static.boredpanda.com/blog/wp-content/uploads/2018/09/Greyhound-Ranger-5badb28d2d113-png__880.jpg">
+					<p>GREYHOUND</p>
 				</section>
-				<section class="question-container">
-					<p class="question">3. What is your bark tolerance?</p>
-					<div class="slidecontainer">
-						<input type="range" min="0" max="3" value="2" step='1.5' class="slider" id="myRange" list='tickmarks'>
-						<div class="tickmarks">
-							<p>Low</p>
-							<p>Medium</p>
-							<p>High</p>
-						</div>
-					</div>
+				<section class="dog-card">
+					<img src="https://static.boredpanda.com/blog/wp-content/uploads/2018/09/Shiba-Inu-Samurai-5badb2a6841f4-png__880.jpg">
+					<p>SHIBA INU</p>
 				</section>
-				<section class="question-container">
-					<p class="question">4. What type of dog are you looking for?</p>
-					<div class="slidecontainer">
-						<input type="range" min="0" max="5" value="2" step='1.25' class="slider" id="myRange" list='tickmarks'>
-						<div class="tickmarks">
-							<p>Pet</p>
-							<p>Show</p>
-							<p>Herd</p>
-							<p>Work</p>
-							<p>Guard</p>
-						</div>
-					</div>
-				</section>
-				<section class="question-container">
-					<p class="question">5. What size do you want your dog to be?</p>
-					<div class="slidecontainer">
-						<input type="range" min="0" max="5" value="2" step='1.25' class="slider" id="myRange" list='tickmarks'>
-						<div class="tickmarks">
-							<p>Mini</p>
-							<p>Small</p>
-							<p>Medium</p>
-							<p>Large</p>
-							<p>Huge</p>
-						</div>
-					</div>
-				</section>
-				<button class="submit-button">
-				Submit
-				</button>
+				
 			</selection>
 		</article>
 		<footer>
@@ -153,16 +103,4 @@
 		</footer>
 		
 	</body>
-	<script type="text/javascript">
-		const rangeSelector = document.getElementsByClassName('slider');
-		for (let i = 0; i < rangeSelector.length; i++) {
-			rangeSelector[i].style.setProperty('--val', + rangeSelector[i].value);
-			rangeSelector[i].style.setProperty('--max', + rangeSelector[i].max);
-			rangeSelector[i].style.setProperty('--min', + rangeSelector[i].min);
-			rangeSelector[i].addEventListener('input', e => {
-				rangeSelector[i].style.setProperty('--val', + rangeSelector[i].value);
-			}, false);
-		}
-		document.documentElement.classList.add('js');
-	</script>
 </html>

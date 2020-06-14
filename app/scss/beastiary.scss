@@ -4,6 +4,17 @@ $nav-bar-color: rgb(35, 31, 32);
 $border-outline-color: #c1d6ac;
 
 
+.gallery-field-a-to-z{
+	display: flex;
+	position: relative;
+	top: 4em;
+	margin-bottom: 2em;
+
+	justify-content: center;
+	padding: 4em 5em;
+
+	z-index: 2;
+}
 .gallery-field{
 	display: flex;
 	position: relative;
@@ -11,50 +22,48 @@ $border-outline-color: #c1d6ac;
 	margin-bottom: 2em;
 
 	justify-content: center;
-	padding: 4em 2em;
+	padding: 4em 5em;
+	margin-top: 8.3em;
+	margin-bottom: 8.35em;
 	z-index: 2;
 
-	.gallery-content{
+	
+}
+.gallery-content{
 		max-width: 80%;
 		min-width: 70%;
-		box-shadow:
-		-50px -50px 0 -40px $nav-bar-color,
-		-55px -55px 0 -43px $border-outline-color,
-		50px 50px 0 -40px $nav-bar-color,
-		60px 60px 0 -48px$border-outline-color;
 		padding: 1.5em;
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		flex-direction: row;
-		justify-content:space-evenly;
-		background-color: $article-background-color;
+		justify-content:center;
+	
 
 	
 		
+}
+
+.dog-card{
+	margin: 1em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	border: solid $border-outline-color 3px;
+	align-items: center;
+	outline: black solid 4px;
+	background-color: black;
+	img{
+		width: 16em;
+		height: 16em;
+	}
+	p{
+		font-weight: bold;
+		color: white;
 	}
 
-	.dog-card{
-		margin: 1em;
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-
-		border: solid $border-outline-color 3px;
-		align-items: center;
-		outline: black solid 4px;
-		background-color: black;
-		img{
-			width: 16em;
-			height: 16em;
-		}
-		p{
-			font-weight: bold;
-			color: white;
-		}
-
-	}
-	.dog-card:hover{
-		opacity: 0.8;
-	}
+}
+.dog-card:hover{
+	opacity: 0.8;
 }
