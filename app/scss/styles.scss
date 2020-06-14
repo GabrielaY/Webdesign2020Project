@@ -110,6 +110,7 @@ $border-outline-color: #c1d6ac;
 	@include transition(background-color 1.5s);
 	border-radius: 10px;
 	min-width: 12em;
+	max-width: 13em;
 	min-height: 20em;
 	border: solid 0.35em black;
 	box-shadow:
