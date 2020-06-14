@@ -35,6 +35,8 @@
     flex-direction: column; }
     .mobile-navigation a {
       width: 100%; }
+    .mobile-navigation .image-link {
+      padding: 0; }
   .dropdown {
     width: 100%;
     display: flex;

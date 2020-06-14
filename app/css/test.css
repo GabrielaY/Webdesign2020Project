@@ -5,12 +5,13 @@
 .test-field {
   display: flex;
   position: relative;
-  top: 3em;
+  top: 4em;
+  margin-bottom: 2em;
   justify-content: center;
-  padding: 4.5em 2em;
+  padding: 4em 2em;
   z-index: 2; }
   .test-field .test-content {
-    min-width: 90%;
+    min-width: 80%;
     box-shadow: -50px -50px 0 -40px #231f20, -55px -55px 0 -43px #c1d6ac, 50px 50px 0 -40px #231f20, 60px 60px 0 -48px #c1d6ac;
     padding: 1.5em;
     display: flex;

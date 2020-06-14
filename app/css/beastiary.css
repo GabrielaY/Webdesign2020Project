@@ -1,0 +1,36 @@
+.gallery-field {
+  display: flex;
+  position: relative;
+  top: 4em;
+  margin-bottom: 2em;
+  justify-content: center;
+  padding: 4em 2em;
+  z-index: 2; }
+  .gallery-field .gallery-content {
+    max-width: 80%;
+    min-width: 70%;
+    box-shadow: -50px -50px 0 -40px #231f20, -55px -55px 0 -43px #c1d6ac, 50px 50px 0 -40px #231f20, 60px 60px 0 -48px #c1d6ac;
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f7f7f7; }
+  .gallery-field .dog-card {
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid #c1d6ac 3px;
+    align-items: center;
+    outline: black solid 4px;
+    background-color: black; }
+    .gallery-field .dog-card img {
+      width: 16em;
+      height: 16em; }
+    .gallery-field .dog-card p {
+      font-weight: bold;
+      color: white; }
+  .gallery-field .dog-card:hover {
+    opacity: 0.8; }

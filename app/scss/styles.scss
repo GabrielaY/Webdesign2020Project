@@ -56,6 +56,7 @@ $border-outline-color: #c1d6ac;
 	.navigation{
 		visibility: hidden !important;
 		display: none !important;
+
 	}
 	.mobile-navigation{
 		visibility: visible !important;
@@ -63,6 +64,9 @@ $border-outline-color: #c1d6ac;
 		
 		a{
 			width: 100%;
+		}
+		.image-link{
+			padding: 0;
 		}
 	}
 	.dropdown{
