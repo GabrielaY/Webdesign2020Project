@@ -4,7 +4,7 @@
   The design was inspired by medieval color pallets and tapestries.
   [Nikita Orlov's artwork](https://nikita.artstation.com/albums/1768395)
   
-  [GITHUB PAGES PREVIEW]()
+  [GITHUB PAGES PREVIEW](https://gabrielay.github.io/Webdesign2020Project/build/index.html)
   
   Screenshots:
   ![Screenshot1](screenshots/1.png)
