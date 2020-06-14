@@ -77,7 +77,6 @@
   padding: 2em;
   margin: 1em;
   display: flex;
-  text-align: center;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center; }
@@ -91,6 +90,8 @@
     width: 100px;
     margin-top: 2em;
     padding: 0.3em; }
+  .card .icon-image {
+    visibility: hidden; }
 
 .card:hover {
   background-image: none;
@@ -99,6 +100,9 @@
 
 .card:hover .learn-more-button {
   display: block; }
+
+.card:hover .icon-image {
+  visibility: visible; }
 
 .card-holder {
   display: flex;
