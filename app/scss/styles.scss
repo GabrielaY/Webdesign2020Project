@@ -109,8 +109,8 @@ $border-outline-color: #c1d6ac;
 
 	@include transition(background-color 1.5s);
 	border-radius: 10px;
-	width: 12em;
-	height: 20em;
+	min-width: 12em;
+	min-height: 20em;
 	border: solid 0.35em black;
 	box-shadow:
 	-50px -50px 0 -40px $nav-bar-color,
