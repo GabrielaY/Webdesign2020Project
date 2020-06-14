@@ -1,0 +1,93 @@
+.about-card-field {
+  flex: 1 0 auto;
+  display: flex;
+  margin-top: 6em;
+  align-items: center;
+  justify-content: center; }
+
+.about-card {
+  width: 75%;
+  min-height: 20em;
+  box-shadow: -50px -50px 0 -40px #231f20, 50px 50px 0 -40px #231f20, -55px -55px 0 -43px #c1d6ac, 60px 60px 0 -48px #c1d6ac, -50em 0 0 -43px #314056, 50em 0 0 -48px #314056;
+  background-color: #f7f7f7;
+  color: black;
+  padding: 1.5em;
+  margin: 1.4em 0;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: space-evenly;
+  align-items: center; }
+  .about-card img {
+    width: 260px;
+    margin-top: 1.5em;
+    height: 260px;
+    border-radius: 10px; }
+
+.text-and-buttons {
+  padding: 0 1em;
+  max-width: 40em; }
+  .text-and-buttons h1 {
+    font-size: 17pt;
+    text-align: center; }
+  .text-and-buttons p {
+    text-align: left;
+    font-size: 13pt;
+    padding: 0.3em; }
+  .text-and-buttons button {
+    transition-duration: 0.4s;
+    color: white;
+    padding: 0.7em;
+    border: none;
+    border-radius: 5px;
+    background-color: #314056;
+    margin: 0 2px; }
+  .text-and-buttons button:hover {
+    background-color: #c1d6ac;
+    color: black; }
+
+.top-content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 80%; }
+
+.stat-content {
+  display: flex;
+  padding-top: 5em;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 80%; }
+
+.bar-holder {
+  border-radius: 9px;
+  margin-bottom: 2em;
+  width: 90%;
+  background-color: #231f20; }
+
+.bar {
+  border-radius: 7px;
+  background-color: #c1d6ac; }
+  .bar p {
+    margin: 0;
+    padding-right: 1em; }
+
+.energy-spaniel {
+  width: 80%; }
+
+.grooming-spaniel {
+  width: 45%; }
+
+.temperament-spaniel {
+  width: 90%; }
+
+.training-spaniel {
+  width: 80%; }
+
+.health-spaniel {
+  width: 70%; }

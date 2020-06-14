@@ -1,3 +1,7 @@
+@media screen and (max-width: 600px) {
+  .gallery-field {
+    margin-top: 0 !important; } }
+
 .gallery-field-a-to-z {
   display: flex;
   position: relative;
@@ -14,7 +18,7 @@
   margin-bottom: 2em;
   justify-content: center;
   padding: 4em 5em;
-  margin-top: 8.3em;
+  margin-top: 6.9em;
   margin-bottom: 8.35em;
   z-index: 2; }
 
@@ -41,6 +45,8 @@
     width: 16em;
     height: 16em; }
   .dog-card p {
+    padding: 0.7em 0;
+    letter-spacing: 1px;
     font-weight: bold;
     color: white; }
 

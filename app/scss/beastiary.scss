@@ -3,6 +3,11 @@ $article-background-color: rgb(247, 247, 247);
 $nav-bar-color: rgb(35, 31, 32);
 $border-outline-color: #c1d6ac;
 
+@media screen and (max-width: 600px) {
+	.gallery-field{
+		margin-top: 0 !important;
+	}
+}
 
 .gallery-field-a-to-z{
 	display: flex;
@@ -23,7 +28,7 @@ $border-outline-color: #c1d6ac;
 
 	justify-content: center;
 	padding: 4em 5em;
-	margin-top: 8.3em;
+	margin-top: 6.9em;
 	margin-bottom: 8.35em;
 	z-index: 2;
 
@@ -59,6 +64,8 @@ $border-outline-color: #c1d6ac;
 		height: 16em;
 	}
 	p{
+		padding: 0.7em 0;
+		letter-spacing: 1px;
 		font-weight: bold;
 		color: white;
 	}
